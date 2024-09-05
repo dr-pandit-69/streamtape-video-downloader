@@ -9,15 +9,24 @@ import time
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import platform
 
 
 
 def setup_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--disable-popup-blocking")  # Disable popup blocking
-    service = Service(executable_path="driver/chromedriver.exe")
+    chrome_options.add_argument("--start-minimized")
+
+    # Detect the operating system and set the path accordingly
+    if platform.system() == "Windows":
+        service = Service(executable_path="driver/chromedriver.exe")
+    else :  
+        service = Service(executable_path="driver/chromedriver")
+    
+
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
+
 
 def download_video(url, filename):
    
