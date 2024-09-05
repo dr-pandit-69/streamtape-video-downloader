@@ -46,7 +46,7 @@ Make sure you have Google Chrome installed (version 115 or higher). You can spec
 Ensure your links.txt file contains the StreamTape video URLs (one URL per line). The scraper will read this file to fetch and download the videos.
 
 
-1. **Run the Video Downloader:**
+6. **Run the Video Downloader:**
 
 If you want to download videos one at a time, run the following command:
 
