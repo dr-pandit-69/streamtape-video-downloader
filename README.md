@@ -2,7 +2,6 @@
 
 This project is a **web scraper** designed to scrape and download videos from *StreamTape*. It utilizes **Selenium** for scraping, **Joblib** for parallelization, and **Requests** for downloading the video files. The scraper is capable of handling multiple videos in parallel and efficiently downloading them to your system.
 
-**Thanks to Shubham Rawat for the idea.**
 
 ## Features
 
