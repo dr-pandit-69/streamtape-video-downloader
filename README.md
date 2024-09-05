@@ -39,14 +39,14 @@ pip install -r requirements.txt
 ```
 
 
-4.**Prepare the environment:**
+4. **Prepare the environment:**
 Make sure you have Google Chrome installed (version 115 or higher). You can specify the path to Chrome WebDriver if needed. Adjust the environment variables in the .env file if necessary.
 
-5.**Provide the URLs to download:**
+5. **Provide the URLs to download:**
 Ensure your links.txt file contains the StreamTape video URLs (one URL per line). The scraper will read this file to fetch and download the videos.
 
 
-6.**Run the Video Downloader:**
+6. **Run the Video Downloader:**
 
 If you want to download videos one at a time, run the following command:
 
