@@ -1,0 +1,11 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore videos folder where downloads are stored
+videos/
+
+driver/
+
+# Ignore Pipenv files
+Pipfile
+Pipfile.lock
