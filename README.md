@@ -6,7 +6,6 @@ This project is a **web scraper** designed to scrape and download videos from *S
 ## Features
 
 - **Parallel Downloading**: The scraper can download multiple videos simultaneously using Joblib, optimizing performance.
-- **Resume Mechanism**: If the script is interrupted, it can pick up from where it left off by reading links from the `links.txt` file.
 - **Video Storage**: Downloaded videos are saved in the `videos/` folder, with file names extracted from the webpage.
 - **Error Handling**: Robust error handling ensures the script retries downloading if it encounters errors.
 
